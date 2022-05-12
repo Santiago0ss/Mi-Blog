@@ -223,3 +223,66 @@ footer p {
     margin: 20px 0;
     font-size: 1.8rem;
 }
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.blogpost-img-container img {
+    width: 90%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #e6e9ed;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.blogpost-main-container article p {
+    font-size: 1.6rem;
+    margin: 24px 0;
+}
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 1.8rem;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 80px;
+}
+
+.contact-main-container img {
+    width: 100px;
+}
+
+.contact-left a {
+    margin: 10px 0;
+}
