@@ -260,7 +260,7 @@ footer p {
     background-color: #e6e9ed;
     text-align: center;
     padding-bottom: 50px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .contact-main-container div {
@@ -271,7 +271,6 @@ footer p {
 
 .contact-main-container div a {
     border-bottom: 1px solid black;
-    padding-bottom: 5px;
 }
 
 .contact-main-container .contact-left, .contact-right {
@@ -285,4 +284,61 @@ footer p {
 
 .contact-left a {
     margin: 10px 0;
+}
+
+.profile-container {
+    width: 100%;
+    padding: 50px 100px;
+    background-color: #e6e9ed;
+}
+
+.profile-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.profile-content h4 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.profile-content p {
+    font-size: 1.6rem;
+}
+
+.profile-container .profile-content img {
+    width: 320px;
+    margin-right: 20px;
+} 
+
+.proyects-container {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.proyects-tittle h3 {
+    font-size: 2.4rem;
+    border-bottom: 1px solid #e6e9ed;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.proyects-info-container {
+    max-width: 980px;
+    margin: auto;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.proyect-info {
+    padding: 10px;
+}
+
+.proyect-info p {
+    font-size: 1.6rem;
+    margin: 20px 0;
 }
